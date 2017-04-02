@@ -19,6 +19,9 @@
         <item name="android:actionBarItemBackground">@drawable/item_background_material_borderless_dark</item>
         <item name="android:actionBarWidgetTheme">@style/ContactsActionBarTheme</item>
         <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_dark</item>
+        <item name="android:colorPrimary">@color/primary_color</item>
+        <item name="android:colorAccent">@color/primary_color</item>
     </style>
 
     <style name="EditorActivityTheme" parent="@style/PeopleTheme">
@@ -70,6 +73,7 @@
         <item name="activated_background">@drawable/list_item_activated_background</item>
         <item name="section_header_background">@drawable/list_title_holo</item>
         <item name="list_section_header_height">24dip</item>
+        <item name="android:navigationBarColor">#ff49b0a6</item>
         <item name="list_item_padding_top">
             @dimen/contact_browser_list_item_padding_top_or_bottom
         </item>
